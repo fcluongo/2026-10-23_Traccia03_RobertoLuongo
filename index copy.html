@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Green</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-dark bg-dark opacity-50 navbar-expand-md">
+        <div class="container">
+            <div class="d-flex justify-content-start align-items-center">
+                <img src="./media/logo.png" alt="Immagine logo" class="logo img-fluid">
+            </div>
+            
+            <!-- toggle - INVERSIONE DELLO STATO - html è possibile creare attributi custom il cui nome deve iniziare con data-... -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- di default c'è margin end auto -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/index.html">link1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inprogess.html">link2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inprogess.html">link3</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav> 
+    
+    <!-- HEADER-->
+    <header class="vw-100" >  
+        <div id="head-section" class="position-relative vw-100">
+            <img src="./media/header.jpg" alt="Banner" class="vw-100 img-fluid">    
+            <div class="w-100 h-100 position-absolute top-0 d-flex align-items-center justify-content-center">
+                <div class="h-75 fw-bolder text-center text-white p-5">
+                    <h1 class="textHeadH1">L O R E M</h1>
+                    <h2 class="textHeadH2">Lorem, ipsum dolor</h2>
+                </div>
+            </div>
+            <!-- Div per creare la trasparenza verso il bianco -->
+            <div class="w-100 h-50 position-absolute top-50 z-1 bg-to-white"></div>
+        </div>
+    </header>
+    
+    <main class="vw-100">
+        <!-- Scritta Lorem Ipsum e valori-->
+        <section>
+            <div class="w-100 d-flex align-items-center justify-content-center p-5">
+                <div class="w-50 text-center">
+                    <p class="textMainS1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta esse commodi ea nobis optio ratione officia assumenda sunt molestias quidem, at architecto dolore quis sint, incidunt facilis est sequi unde!</p>
+                </div>
+            </div>
+            <!-- Valori in tre card grid view -->
+            <div class="container p-5">
+                <div class="row justify-content-center g-4">
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <h2 class="textMainS1h2 text-center">532</h2>
+                        <p class="textKanit1r text-center mb-0">Lorem ipsum dolor sit amet.</p>
+                        <img src="./media/lineGreen.png" alt="Linea Verde" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <h2 class="textMainS1h2 text-center">5668</h2>
+                        <p class="textKanit1r text-center mb-0">Lorem ipsum dolor sit amet.</p>
+                        <img src="./media/lineGreen.png" alt="Linea Verde" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <h2 class="textMainS1h2 text-center">694</h2>
+                        <p class="textKanit1r text-center mb-0">Lorem ipsum dolor sit amet.</p>
+                        <img src="./media/lineGreen.png" alt="Linea Verde" class="img-fluid">
+                    </div>
+                </div>          
+            </div>
+        </section>
+        
+        <!-- Sezione 2 Descrizione -->
+        <section>
+            <div id="des-section" class="position-relative vw-100">
+                <img src="./media/description2.jpg" alt="Banner" class="img-fluid">
+                
+                <!-- div solo per le sfumature -->
+                <div class="w-100 h-25 position-absolute top-0 bg-from-white "></div>
+                <div class="w-100 h-50 position-absolute top-50 bg-to-white "></div>
+                
+                <div class="h-100 position-absolute top-0 z-2">
+                    <div class="container w-75 h-100">
+                        <div class="d-flex w-50 h-100 flex-column justify-content-center">
+                            <h3 class="textKanit2rGreen">DESCRIPTION</h3>
+                            <p class="textMainS2p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam reiciendis, deleniti debitis quae minima repellendus quia quaerat provident eos. Voluptate ea ab harum hic libero delectus asperiores cum temporibus.</p>
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div>         
+        </section>
+        
+        <!-- Sezione la nostra TimeLine -->
+        <section>
+            <div class="p-5">
+                <h2 class="text-center textKanit2rGreen p-5">OUR TIMELINE</h2>
+            </div>
+            
+            <div class="container p-5">
+                <div class="row justify-content-center g-4">
+                    <div class="col-12 col-md-3 cardTimeLine p-0">
+                        <div class="d-flex flex-column h-100 align-items-center">
+                            <div class="h-50 d-flex justify-content-center align-items-center">
+                                <p class="textKanit2rGreen">2007</p>
+                            </div>
+                            <img src="./media/timeLine.png" alt="Linea del tempo" class="img-fluid">
+                            <div class="h-50 d-flex flex-column align-items-center">
+                                <img src="./media/punto.png" alt="">
+                                <p class="textKanit1r">Lorem ipsum dolor sit amet</p>                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3  cardTimeLine p-0">
+                        <div class="d-flex flex-column h-100 align-items-center">
+                            <div class="h-50 d-flex flex-column align-items-center">
+                                <img src="./media/mondo.png" alt="">
+                                <p class="textKanit1r">Lorem ipsum dolor sit amet</p>                           
+                            </div>
+                            <img src="./media/timeLine.png" alt="Linea del tempo" class="img-fluid">
+                            <div class="h-50 d-flex justify-content-center align-items-center">
+                                <p class="textKanit2rGreen">2012</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3  cardTimeLine p-0">
+                        <div class="d-flex flex-column h-100 align-items-center">
+                            <div class="h-50 d-flex justify-content-center align-items-center">
+                                <p class="textKanit2rGreen">2017</p>
+                            </div>
+                            <img src="./media/timeLine.png" alt="Linea del tempo" class="img-fluid">
+                            <div class="h-50 d-flex flex-column align-items-center">
+                                <img src="./media/bandiere.png" alt="">
+                                <p class="textKanit1r">Lorem ipsum dolor sit amet</p>                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3  cardTimeLine p-0">
+                        <div class="d-flex flex-column h-100 align-items-center">
+                            <div class="h-50 d-flex flex-column align-items-center">
+                                <img src="./media/persone.png" alt="">
+                                <p class="textKanit1r">Lorem ipsum dolor sit amet</p>                           
+                            </div>
+                            <img src="./media/timeLine.png" alt="Linea del tempo" class="img-fluid">
+                            <div class="h-50 d-flex justify-content-center align-items-center">
+                                <p class="textKanit2rGreen">2012</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- Fine ROW -->
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- Sezione Bottone -->
+        <section>
+            <div class="vw-100 d-flex p-5 align-items-center justify-content-center">
+                <button type="button" class="btn btn-success">Lorem, ipsum.</button>
+            </div>
+        </section>
+        
+        <!-- Sezione nostri benefici -->
+        <section>
+            <div class="p-5">
+                <h2 class="text-center textKanit2rGreen p-5">OUR BENEFIT</h2>
+            </div>
+            
+            <div class="container p-5">
+                <div class="row justify-content-evenly g-4"> 
+                    <div class="col-12 col-md-3 p-0 cardBenefit position-relative">
+                        <img src="./media/benefit1.jpg" alt="Beneficio1" class="cardImage rounded rounded-3">
+                        <div class="w-100 h-100 position-absolute top-0">
+                            <div class="d-flex flex-column h-100 align-items-center">
+                                <div class="h-50 w-100 ms-3 d-flex flex-column justify-content-end align-items-start">
+                                    <i class="bi bi-cloud-haze2 fs-1 text-white"></i>
+                                    <p class="textBenefitCard text-white">Lorem</p>
+                                </div>
+                                <div class="border-top border-3 border-light-subtle w-75 my-2"></div>
+                                <div class="h-50 w-100">
+                                    <p class="textKanit1r text-white text-start ms-2">Lorem ipsum dolor sit.</p>                           
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- Benefit 2 -->
+                    <div class="col-12 col-md-3 p-0 cardBenefit position-relative">
+                        <img src="./media/benefit2.jpg" alt="Beneficio2" class="cardImage rounded rounded-3">
+                        <div class="w-100 h-100 position-absolute top-0">
+                            <div class="d-flex flex-column h-100 align-items-center">
+                                <div class="h-50 w-100 ms-3 d-flex flex-column justify-content-end align-items-start">
+                                    <i class="bi bi-moon fs-1 text-white"></i>
+                                    <p class="textBenefitCard text-white">Lorem</p>
+                                </div>
+                                <div class="border-top border-3 border-light-subtle w-75 my-2"></div>
+                                <div class="h-50 w-100">
+                                    <p class="textKanit1r text-white text-start ms-2">Lorem ipsum dolor sit.</p>                           
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- Benefit 3 -->
+                    <div class="col-12 col-md-3 p-0 cardBenefit position-relative">
+                        <img src="./media/benefit3.jpg" alt="Beneficio2" class="cardImage rounded rounded-3">
+                        <div class="w-100 h-100 position-absolute top-0">
+                            <div class="d-flex flex-column h-100 align-items-center">
+                                <div class="h-50 w-100 ms-3 d-flex flex-column justify-content-end align-items-start">
+                                    <i class="bi bi-tree fs-1 text-white"></i>
+                                    <p class="textBenefitCard text-white">Lorem</p>
+                                </div>
+                                <div class="border-top border-3 border-light-subtle w-75 my-2"></div>
+                                <div class="h-50 w-100">
+                                    <p class="textKanit1r text-white text-start ms-2">Lorem ipsum dolor sit.</p>                           
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- Benefit 4 -->
+                    <div class="col-12 col-md-3 p-0 cardBenefit position-relative">
+                        <img src="./media/benefit4.jpg" alt="Beneficio2" class="cardImage rounded rounded-3">
+                        <div class="w-100 h-100 position-absolute top-0">
+                            <div class="d-flex flex-column h-100 align-items-center">
+                                <div class="h-50 w-100 ms-3 d-flex flex-column justify-content-end align-items-start">
+                                    <i class="bi bi-brightness-alt-high fs-1 text-white"></i>
+                                    <p class="textBenefitCard text-white">Lorem</p>
+                                </div>
+                                <div class="border-top border-3 border-light-subtle w-75 my-2"></div>
+                                <div class="h-50 w-100">
+                                    <p class="textKanit1r text-white text-start ms-2">Lorem ipsum dolor sit.</p>                           
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <!-- Fine della ROW -->
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- Sezione nostro team -->
+        <section>
+            <div class="p-5">
+                <h2 class="text-center textKanit2rGreen p-5">OUR TEAM</h2>
+            </div>
+            
+            <div class="container vw-100">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col12 col-md-4 text-center">
+                        <img src="./media/team1.jpg" class="teamBox rounded-circle border border-2 border-success p-2" alt="Team 1">
+                    </div>
+                    <div class="col12 col-md-4">
+                        <h3 class="textTeamh3 text-center text-md-end">lorem</h3>
+                        <p class="textKanit1r text-center text-md-end">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor eum iste quia eos architecto, eius molestias facilis? Explicabo labore ut dicta ducimus illo magnam harum asperiores voluptas nisi, nesciunt fugiat.
+                        </p>
+                    </div>
+                </div> 
+                
+                <div class="row justify-content-center align-items-center">
+                    
+                    <div class="col12 col-md-4">
+                        <h3 class="textTeamh3 text-center text-md-start">lorem</h3>
+                        <p class="textKanit1r text-center text-md-start">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor eum iste quia eos architecto, eius molestias facilis? Explicabo labore ut dicta ducimus illo magnam harum asperiores voluptas nisi, nesciunt fugiat.
+                        </p>
+                    </div>
+                    <div class="col12 col-md-4 text-center">
+                        <img src="./media/team2.jpg" class="teamBox rounded-circle border border-2 border-success p-2" alt="Team 1">
+                    </div>
+                </div> 
+            </div>
+            
+        </section>
+        
+        <!-- Sezione nostri Social -->
+        <section>
+            <div class="vw-100 bg-to-gray">
+                <div class="container">
+                    <div class="p-5">
+                        <h2 class="text-center textKanit2rGreen p-5">OUR SOCIAL</h2>
+                    </div>
+                    <div class="d-flex justify-content-evenly p-5">
+                        <div class="boxSocial d-flex justify-content-center align-content-center m-auto shadow-lg rounded rounded-2">
+                            <i class="bi bi-facebook fs-1 text-success"></i>
+                        </div>
+                        <div class="boxSocial d-flex justify-content-center align-content-center m-auto shadow-lg rounded rounded-2">
+                            <i class="bi bi-instagram fs-1 text-success"></i>
+                        </div>
+                        <div class="boxSocial d-flex justify-content-center align-content-center m-auto shadow-lg rounded rounded-2">
+                            <i class="bi bi-twitter fs-1 text-success"></i>
+                        </div>
+                        <div class="boxSocial d-flex justify-content-center align-content-center m-auto shadow-lg rounded rounded-2">
+                            <i class="bi bi-linkedin fs-1 text-success"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./media/treesocial2.png" alt="Immagine Alberi Bianchi" class="img-fluid w-100 mx-auto">
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <div class="vw-100 position-relative">
+            <img src="./media/footer.jpg" alt="Immagine di Footer" class="img-fluid">
+            <!-- DIV per la sfumatura -->
+            <div class="w-100 h-100 position-absolute top-0 bg-from-white"></div>
+            <div class="w-100 h-100 position-absolute top-0 z-1">
+                <div class="container w-100 h-75 d-flex align-items-end justify-content-between">
+                    <div class="w-75">
+                        <h2 class="text-start textKanit2rWhite">LOREM</h2>
+                        <p class="textKanit1r text-white text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas sint, sapiente unde aspernatur dolore doloribus deserunt error iure vitae! Exercitationem natus quod quibusdam dolorum harum pariatur culpa tempora molestias cumque.</p>
+                    </div>
+                    <div class w-25>
+                        <ul class="text-white">
+                            <li class="textKanit1r">link uno</li>
+                            <li class="textKanit1r">link due</li>
+                            <li class="textKanit1r">link tre</li>
+                            <li class="textKanit1r">link quattro</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
